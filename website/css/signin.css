@@ -1,7 +1,10 @@
 body{
 	margin:0;
-	color:#6a6f8c;
-	background:#c8c8c8;
+	padding-bottom:55px;
+	color: #665244;
+/*	background:#FEEFF2;*/
+	background:url(../img/bg_signin.png) no-repeat; 
+	background-size: 100% 100%;
 	font:600 16px/18px 'Open Sans',sans-serif;
 }
 *,:after,:before{box-sizing:border-box}
@@ -20,8 +23,17 @@ input, button {
 	margin-left: 42%;
 }
 .top a:hover{ color:#000;}
-.top .logo{ color:#FFF;}
-.top .logo a{ display:block; background:url(../img/logo.png) no-repeat; padding-left:50px; text-decoration:none; line-height:34px; color:#FFF; font-size:28px;}
+.top .logo{ color:#FFF; }
+.top .logo a{ 
+	display:block; 
+	background:url(../img/logo.png) no-repeat; 
+	background-size:55px 45px; 
+	padding : 20px 0 10px 70px; 
+	text-decoration:none; 
+	line-height:20px;
+	 color:#000; 
+	 font-size:40px;
+	}
 .top .logo a:hover{ opacity:0.8;}
 
 .login-wrap{
@@ -30,7 +42,7 @@ input, button {
 	max-width:525px;
 	min-height:610px;
 	position:relative;
-	background:url(../img/bg_signin.jpg) no-repeat center;
+	background:url(../img/signin-bg.jpg) no-repeat center;
 	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
 }
 .login-html{
@@ -38,7 +50,7 @@ input, button {
 	height:100%;
 	position:absolute;
 	padding:90px 70px 50px 70px;
-	background:rgba(40,57,101,.9);
+	/*background:rgba(40,57,101,0.6);*/
 }
 .login-html .sign-in-htm,
 .login-html .sign-up-htm{
@@ -74,8 +86,8 @@ input, button {
 }
 .login-html .sign-in:checked + .tab,
 .login-html .sign-up:checked + .tab{
-	color:#fff;
-	border-color:#1161ee;
+	color: #000;
+	border-color: #EB7A91;
 }
 .login-form{
 	min-height:345px;
@@ -100,18 +112,21 @@ input, button {
 	border:none;
 	padding:15px 20px;
 	border-radius:25px;
-	background:rgba(255,255,255,.1);
+	background:rgba(255,255,255,.3);
+}
+.login-form .group .input:hover{
+	box-shadow: 0 0 8px #EB7A91;
 }
 .login-form .group input[data-type="password"]{
 	text-security:circle;
 	-webkit-text-security:circle;
 }
 .login-form .group .label{
-	color:#aaa;
+	color: #766B67;
 	font-size:12px;
 }
 .login-form .group .button{
-	background:#1161ee;
+	background: #EB7A91;
 }
 .login-form .group label .icon{
 	width:15px;
@@ -150,7 +165,7 @@ input, button {
 	color:#fff;
 }
 .login-form .group .check:checked + label .icon{
-	background:#1161ee;
+	background: #EB7A91;
 }
 .login-form .group .check:checked + label .icon:before{
 	-webkit-transform:scale(1) rotate(45deg);
@@ -176,7 +191,7 @@ input, button {
 .hr{
 	height:2px;
 	margin:50px 0 30px 0;
-	background:rgba(255,255,255,.2);
+	background:rgba(255,255,255,.5);
 }
 .foot-lnk{
 	text-align:center;
