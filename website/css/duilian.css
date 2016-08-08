@@ -1,6 +1,6 @@
 @import url('reset.css');
 body{
-	background:#f7f7f7 url(../img/pinstripe.gif) repeat top left;/*背景图*/
+	background:#f7f7f7 url(../img/pinstripe.png) repeat top left;/*背景图*/
 	color:#000;
 	font-family: Georgia, "Times New Roman",sans-serif;
 	font-size:12px;

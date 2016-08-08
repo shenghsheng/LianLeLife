@@ -54,11 +54,29 @@ body {
 }
 
 /*中间部分*/
-.section{
+.content{
+    position: relative;
     width: 100%;
-    min-height:560px;
-    background-color: #FEEFF2;
-    padding: 100px;
+    min-height:720px;
+}
+#sky{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    min-height:720px;
+    background: url(../img/yuncai.png) no-repeat;
+    background-size: 100% auto;
+  /*  background-position:-1505px 0;*/
+}
+.section{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    min-height:720px;
+    background: url(../img/yuncai.png) no-repeat;
+    background-size: 100% auto;
+  /*  background-position:0 0;*/
+    /*padding: 100px;*/
 }
 #info{
     background: url(../img/info-bg.png) no-repeat;
@@ -133,7 +151,7 @@ body {
 /* Footer */
 
 footer {
-    padding: 50px 0;
+    padding: 130px 0 50px 0;
     background-color: #fff;
 }
 #to-top {

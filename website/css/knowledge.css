@@ -1,4 +1,4 @@
-body{ background-color:#000000}
+body{ background-color:#FEEFF2}
 /*顶部固定栏*/
 .entry{ max-width:1200px; min-width:1200px; margin:0 auto;}
 .top{ display:block; width:100%; height:80px; position:fixed; z-index:999; left:0; top:0;background-color: #000;}
